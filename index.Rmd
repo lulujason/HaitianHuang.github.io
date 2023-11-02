@@ -1,5 +1,5 @@
 ---
-title: "Hello!!I'm Haitian"
+title: "Hello!!I'm Haitian."
 output: 
   html_document:
     toc: true
