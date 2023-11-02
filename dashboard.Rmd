@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Instacart"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -17,8 +17,8 @@ data("instacart")
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
-# Number of items ordered in each department
+
+### Number of items ordered in each department
 ```{r}
 instacart |> 
   count(department) |> 
@@ -31,9 +31,7 @@ instacart |>
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
-
-# Number of items ordered in each department
+### Number of items ordered in each department
 
 ```{r}
 instacart |> 
@@ -43,9 +41,8 @@ instacart |>
 
 ```
 
-### Chart C
-
-# distribution of number of items reordered in each department
+-----------------------------------------------------------------------
+### distribution of number of items reordered in each department
 
 ```{r}
 instacart|>
