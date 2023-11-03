@@ -11,6 +11,8 @@ navbar:
       href: mailto:<hhtjason@sina.com>
     - icon: fa-github fa-lg
       href: http://github.com/lulujason/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/haitian-huang-348a5428a/
 output:
   html_document:
     theme: darkly
